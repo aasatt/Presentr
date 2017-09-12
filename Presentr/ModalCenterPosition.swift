@@ -11,11 +11,11 @@ import Foundation
 /**
  Describes the presented presented view controller's center position. It is meant to be non-specific, but we can use the 'calculatePoint' method when we want to calculate the exact point by passing in the 'containerBounds' rect that only the presentation controller should be aware of.
 
- - Center:       Center of the screen.
- - TopCenter:    Center of the top half of the screen.
- - BottomCenter: Center of the bottom half of the screen.
- - Custom: A custom center position using a CGPoint which represents the center point of the presented view controller.
- - Custom: A custom center position to be calculated, using a CGPoint which represents the origin of the presented view controller.
+ - center:       Center of the screen.
+ - topCenter:    Center of the top half of the screen.
+ - bottomCenter: Center of the bottom half of the screen.
+ - custom: A custom center position using a CGPoint which represents the center point of the presented view controller.
+ - customOrigin: A custom center position to be calculated, using a CGPoint which represents the origin of the presented view controller.
  */
 public enum ModalCenterPosition {
 
